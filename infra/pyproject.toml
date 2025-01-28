@@ -1,0 +1,18 @@
+[project]
+name = "video-summarizer-infra"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "RichardFFrank",email = "71610664+RichardFFrank@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "aws-cdk-lib (>=2.176.0,<3.0.0)",
+    "constructs (>=10.4.2,<11.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
